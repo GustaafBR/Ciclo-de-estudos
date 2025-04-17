@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="cde.css">
+         <title>Ciclo de estudos</title>
+</head>
+<body>
+   <h1 id="titulo">Criando um ciclo de estudos</h1>
+   <section id="bloco">
+      <div id="dados">
+         <br>
+         <h2>Assista o vídeo abaixo e volte aqui depois:</h2>
+         <p id="linkyt">&rarr;   <a href="https://youtu.be/AjU0UmGHm2Q?si=hpJOkHipOx0qEDVd" target="_blank" ref="external">Clique aqui para assistir o vídeo</a>   &larr;</p>
+         <br>
+         <h3>Digite quantas matérias teve para cada dificuldade:</h3>
+         <p id="pc">5x (Péssimo):<br><input type="number" id="x5" placeholder="Insira um valor"></p>
+         <p id="pc">4x (Ruim):<br><input type="number" id="x4" placeholder="Insira um valor"></p>
+         <p id="pc">3x (Mais ou Menos):<br><input type="number" id="x3" placeholder="Insira um valor"></p>
+         <p id="pc">2x (Bom):<br><input type="number" id="x2" placeholder="Insira um valor"></p>
+         <p id="pc">x (Ótimo):<br><input type="number" id="x" placeholder="Insira um valor"></p>
+         <br>
+         <h3>Digite quantas horas serão dedicadas para estudos em um dia:</h3>
+         <p><input type="number" id="hrspd" placeholder="Insira um valor"></p>
+         <br>
+         <h3>Digite quantos dias serão usados para estudos em uma semana de 7 dias:</h3>
+         <p><input type="number" id="dpe" placeholder="Insira um valor"></p>
+         <br>
+         <p><button onclick="calcular()">Fazer Cálculo</button></p>
+         <br>
+      </div>
+   </section>
+   <script src="cde.js"></script>
+</body>
+</html>

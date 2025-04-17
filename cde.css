@@ -1,0 +1,67 @@
+body{
+    background: rgb(16, 0, 43);
+    color: white;
+    text-align: center;
+    font: normal 15px sans-serif;
+}
+#linkyt{
+    background: rgb(255, 174, 0);
+    padding: 15px;
+    max-width: 270px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 0px 5px 0px rgb(54, 37, 0);
+}    
+#bloco{
+    color: rgb(16, 0, 43);
+    background: white;
+    max-width: 700px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 0px 10px 0px rgb(110, 110, 110);
+}
+input::placeholder{
+    color: white;
+}
+input:not(:hover){
+    padding: 15px;
+    border: none;
+    color: white;
+    background: rgb(16, 0, 43);
+    border-radius: 40px;
+    box-shadow: 0px 5px 0px rgb(4, 0, 10);
+    transition: 0.5s;
+}
+input:hover{
+    padding: 30px;
+    border: 3px solid rgb(16, 0, 43);
+    background: white;
+    border-radius: 40px;
+    transition: 0.5s;    
+}
+button:not(:hover){
+    padding: 15px;
+    border: none;
+    background: rgb(255, 174, 0);
+    border-radius: 40px;
+    box-shadow: 0px 5px 0px rgb(54, 37, 0);
+    transition: 0.5s;
+    color: rgb(16, 0, 43);
+    max-width: 200px;
+}
+button:hover{
+    padding: 15px;
+    border: 3px solid rgb(255, 174, 0);
+    background: white;
+    border-radius: 40px;
+    transition: 0.5s;  
+    color: rgb(16, 0, 43); 
+    box-shadow: 0px 5px 0px rgb(54, 37, 0); 
+    max-width: 200px;        
+}
+#pc{
+    font-weight: 900;
+}
