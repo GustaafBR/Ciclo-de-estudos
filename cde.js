@@ -1,5 +1,5 @@
 function calcular(){
-    // window.alert("ok")
+    // window.alert("ok");
 
     //pega quantas vezes o nivel de dificuldade se repete em cada ocasiao
     let rx1 = Number(window.document.getElementById('x').value)
